@@ -1,0 +1,31 @@
+html{
+    background-color: rgba(148, 142, 142, 0.699);
+    color:rgb(66, 59, 59);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{
+	margin: 0px auto;
+	width: 1150px;
+    min-height: 100%;
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
+    perspective: 400px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: rgb(34, 31, 31);
+    font-family: cursive;
+}
+footer{
+    background-color: rgba(112, 105, 105, 0.521);
+}
+#portfolio{
+    color: yellow;
+}
+#home{
+    background-color:rgba(114, 104, 104, 0.164);
+}
+#skills{
+    background-color:rgba(63, 58, 58, 0.226)
+}
