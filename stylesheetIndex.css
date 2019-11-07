@@ -3,6 +3,7 @@ html{
     color:rgb(66, 59, 59);
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     
 }
 body{
@@ -19,13 +20,25 @@ h1, h2, h3, h4, h5, h6{
 }
 footer{
     background-color: rgba(112, 105, 105, 0.521);
+    
 }
 #portfolio{
-    color: yellow;
+    color: aqua;
+    
 }
 #home{
     background-color:rgba(114, 104, 104, 0.164);
 }
 #skills{
-    background-color:rgba(63, 58, 58, 0.226)
+    background-color:rgba(0, 0, 0, 0.199)
 }
+img{
+    display: block;
+    block-size: 48%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    border: 5px;
+}
+
