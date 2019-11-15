@@ -1,9 +1,9 @@
-html{
-    background-image: url("blackbrickwallpng");
+body{
+    background-image: url("blackbrickwall.png");
 }
 html{
-    background-color: rgba(148, 142, 142, 0.699);
-    color:rgb(66, 59, 59);
+    background-color: rgba(106, 107, 94, 0.699);
+    color: rgba(255, 255, 255, 0.904);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -13,27 +13,28 @@ body{
 	margin: 0px auto;
 	width: 1150px;
     min-height: 100%;
-    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
-                rgb(51, 51, 51) -15px 0px 25px;
+    box-shadow: rgb(0, 0, 0) 15px 0px 25px,
+                rgb(0, 0, 0) -15px 0px 25px;
     perspective: 400px;
 }
 h1, h2, h3, h4, h5, h6{
-    color: rgb(34, 31, 31);
+    color: rgba(148, 169, 228, 0.733);
     font-family: 'Spectral SC', serif;
 }
 footer{
-    background-color: rgba(112, 105, 105, 0.521);
+    background-color: rgba(2, 26, 58, 0.548);
+    padding-bottom: 69px;
     
 }
-#portfolio{
-    color: aqua;
+
     
-}
 #home{
-    background-color:rgba(114, 104, 104, 0.164);
+    background-color: rgba(2, 26, 58, 0.548);
 }
 #skills{
-    background-color:rgba(0, 0, 0, 0.199)
+    background-color:rgba(2, 26, 58, 0.548);
+    list-style: none;
+    text-align: center;
 }
 img{
     display: block;
@@ -48,9 +49,9 @@ nav li{
     
 }
 nav{
-    background-color:rgba(0, 0, 0, 0.753);
+    background-color:rgba(0, 0, 19, 0.753);
     padding: 30px;
-    border: 3px solid rgba(255, 255, 255, 0.493);
+    border: 3px solid rgba(2, 26, 58, 0.548);
 }
 a{
     color: rgba(243, 236, 236, 0.829);
@@ -60,7 +61,30 @@ a{
 a:hover{
     color:rgba(145, 137, 137, 0.76);
 }
-
+#mywork img{
+    width: 851px;
+    height: 262;
+}
+nav.navbar{
+    position: fixed;
+   top: 0;
+   width: 100%;
+}
+#portfolio h1{
+    background-color: rgba(2, 26, 58, 0.548);
+}
+#aboutme{
+    background-color: rgba(2, 26, 58, 0.548);
+}
+#mywork h2{
+    background-color: rgba(2, 26, 58, 0.548);
+}
+#mywork li{
+    list-style: none;
+}
+footer h2,h4{
+    color: rgba(148, 169, 228, 0.733);
+}
 
 
 
